@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitforinstagrma]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test12(failed)">
+    <classes>
+      <class name="test.testclass1">
+        <methods>
+          <include name="dmtest"/>
+          <include name="launcurl"/>
+          <include name="loginandtest"/>
+          <include name="launchBrwser"/>
+          <include name="logOutMethod"/>
+          <include name="beforeMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- test.testclass1 -->
+      <class name="test.testClassAmazon">
+        <methods>
+          <include name="launchBrwser"/>
+          <include name="beforeClass"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="enterUrl"/>
+        </methods>
+      </class> <!-- test.testClassAmazon -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+</suite> <!-- Failed suite [Suitforinstagrma] -->

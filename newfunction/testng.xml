@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="5" parallel="tests">
+  <test name = "fireroxTest">
+  <parameter name ="browser" value ="firerox"/>
+    <classes>
+      <class name="test.testClassAmazon"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name = "chromeTest">
+  <parameter name ="browser" value ="chrome"/>
+    <classes>
+      <class name="test.testclass1"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
